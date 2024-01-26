@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    width: 1000px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(45, 45, 139);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(36, 36, 110);
+}
+.navbar li{
+    float: left;
+}
+li {
+    display: inline;
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+  
+button {
+    transition: transform 0.7s ease-in-out;
+
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    width: 300px;  
+    height: 300px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+}
+a{
+    width: 400px;
+}
+  #slider-container {
+    overflow: hidden;
+    width: 300px;
+    white-space: nowrap;
+}
+
+.button{
+display: inline-block;
+}
+
+  
+.carousel {
+width: 60vw;
+height: 60vh;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+
+}
+  
+.carousel > ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+  
+.slide {
+position: absolute;
+inset: 0;
+opacity: 0;
+transition: 200ms opacity ease-in-out;
+transition-delay: 200ms;
+}
+  
+.slide > img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+.slide > .btn {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+  
+.slide[data-active] {
+opacity: 1;
+z-index: 1;
+transition-delay: 0ms;
+}
+  
+.carousel-button {
+position: absolute;
+z-index: 2;
+background: none;
+border: none;
+font-size: 4rem;
+top: 50%;
+transform: translateY(-50%);
+color: rgba(255, 255, 255, .5);
+cursor: pointer;
+border-radius: .25rem;
+padding: 0 .5rem;
+background-color: rgba(0, 0, 0, .1);
+box-shadow: 0 9px #999;
+}
+  
+.carousel-button:hover{
+color: white;
+background-color: #707070
+}
+  
+.carousel-button:focus {
+outline: 1px solid black;
+}
+  
+.carousel-button.prev {
+left: 1rem;
+}
+  
+.carousel-button.next {
+    right: 1rem;
+}
+button{
+    margin: auto;  
+    height: 90px;
+    width: 90px;
+}
+
+
+.projectBtn{
+    background-color: rgb(45, 45, 139);
+    border-radius: 1.25rem;
+    color: rgba(255, 255, 255, .5);
+    height: 30px;
+    width: 600px;
+}
+.pimg{
+    border-radius: 10px;
+    
+}
+  
+  
+
+  
